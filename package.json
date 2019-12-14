@@ -1,0 +1,22 @@
+{
+  "name": "ramda-pratice",
+  "version": "1.0.0",
+  "description": "一些ramda函数的小练习",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/just2011lin/ramda-pratice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/just2011lin/ramda-pratice/issues"
+  },
+  "homepage": "https://github.com/just2011lin/ramda-pratice#readme",
+  "dependencies": {
+    "ramda": "^0.26.1"
+  }
+}
