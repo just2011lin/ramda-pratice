@@ -1,5 +1,5 @@
 const R = require('ramda');
-const log = (num, messsage) => console.log(num + ': ', messsage);
+const { log } = require('../util')
 // Ramda库专项练习一
 // 1.	add，使用该函数创建一个n+10的 函数
 const func01 = R.add(10);
