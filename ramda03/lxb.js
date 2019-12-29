@@ -2,7 +2,7 @@ const R = require('Ramda');
 const log = (num, messsage) => console.log(num + ': ', messsage);
 // 1.  divide，创建一个函数，传入一个数字，获取其第一位上的数字
 const func01 = num => Math.floor(R.divide(num, Math.pow(10, R.dec(R.compose(R.length, R.toString)(num)))))
-log(01, func01(9875421));
+log(01, func01(0.9875421));
 
 // 2.  drop，创建一个函数，传入一个字符串数组，将字符串值为start的项之前的项都删除
 const func02 = R.chain(R.drop, R.findIndex(R.equals('start')));
